@@ -1,0 +1,51 @@
+{
+  "ret": true,
+  "data": {
+    "dataList": [
+      {
+        "label": "视频数据",
+        "name": "dc01"
+      },
+      {
+        "label": "专栏数据",
+        "name": "dc02"
+      }
+    ],
+    "videoItemList": [
+      {
+        "title": "视频播放",
+        "num": 18667
+      },
+      {
+        "title": "评论数",
+        "num": 138
+      },
+      {
+        "title": "弹幕数",
+        "num": 78
+      },
+      {
+        "title": "点赞数",
+        "num": 227
+      }
+    ],
+    "columnItemList": [
+      {
+        "title": "阅读量",
+        "num": 2158
+      },
+      {
+        "title": "评论数",
+        "num": 35
+      },
+      {
+        "title": "收藏数",
+        "num": 7
+      },
+      {
+        "title": "点赞数",
+        "num": 51
+      }
+    ]
+  }
+}

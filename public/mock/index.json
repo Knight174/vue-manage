@@ -1,0 +1,99 @@
+{
+  "ret": true,
+  "data": {
+    "imgList": [
+      { "id": 1, "src": "https://i0.hdslb.com/bfs/archive/187665b74c945f692f4678e53e706e6d3c2f400c.png_644x228.png" },
+      { "id": 2, "src": "https://i0.hdslb.com/bfs/archive/b39a76468db14de5894e4252655432c2994f316d.jpg_644x228.jpg" },
+      { "id": 3, "src": "https://i0.hdslb.com/bfs/archive/06936d2ceca8d096ffe4c1c27737ebe2241ba0df.jpg_644x228.jpg" }
+    ],
+    "activitiesList": [
+      { "id": 1, "title": "手游暑假作业", "num": 5780 },
+      { "id": 2, "title": "夏日健身打卡", "num": 6000 },
+      { "id": 3, "title": "八月打卡挑战", "num": 7859 },
+      { "id": 4, "title": "新星计划暑假赛", "num": 4987 }
+    ],
+    "dataTitle": [
+      { "id": 1, "title": "视频数据" },
+      { "id": 2, "title": "专栏数据" }
+    ],
+    "videoData": [
+      {
+        "id": "v1",
+        "title": "粉丝数",
+        "num": 56,
+        "arrow": true,
+        "src": "/content/article"
+      },
+      {
+        "id": "v2",
+        "title": "视频播放",
+        "num": 18667,
+        "arrow": true,
+        "src": "/data-center"
+      },
+      {
+        "id": "v3",
+        "title": "评论数",
+        "num": 138,
+        "src": ""
+      },
+      {
+        "id": "v4",
+        "title": "弹幕数",
+        "num": 75,
+        "src": ""
+      },
+      {
+        "id": "v5",
+        "title": "点赞数",
+        "num": 658,
+        "src": ""
+      },
+      {
+        "id": "v6",
+        "title": "分享数",
+        "num": 12,
+        "src": ""
+      }
+    ],
+    "columnData": [
+      {
+        "id": 1,
+        "title": "粉丝数",
+        "num": 56,
+        "arrow": true,
+        "src": "/content/article"
+      },
+      {
+        "id": 2,
+        "title": "阅读量",
+        "num": "--",
+        "src": ""
+      },
+      {
+        "id": 3,
+        "title": "评论数",
+        "num": "--",
+        "src": ""
+      },
+      {
+        "id": 4,
+        "title": "收藏数",
+        "num": "--",
+        "src": ""
+      },
+      {
+        "id": 5,
+        "title": "点赞数",
+        "num": "--",
+        "src": ""
+      },
+      {
+        "id": 6,
+        "title": "分享数",
+        "num": "--",
+        "src": ""
+      }
+    ]
+  }
+}
