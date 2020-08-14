@@ -77,11 +77,6 @@ export default {
       })
         .then(() => {
           this.deleteData(row.id)
-          this.$message({
-            type: 'success',
-            message: '删除成功!'
-          })
-          this.$router.push({ name: 'ContentArticle' })
         })
         .catch(() => {
           this.$message({
@@ -113,7 +108,12 @@ export default {
     },
     deleteData(id) {
       this.$http.delete(`http://localhost:3000/tableData/${id}`).then(() => {
-        // this.$router.push('/content/article')
+        this.$message({
+          type: 'success',
+          message: '删除成功!'
+        })
+        this.getArticleInfo()
+        this.$router.push('/content/article')
       })
     }
   },

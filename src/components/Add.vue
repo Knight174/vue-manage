@@ -1,13 +1,7 @@
 <template>
   <div class="add">
     <h1 class="title">添加数据</h1>
-    <el-form
-      autocomplete="off"
-      :label-position="labelPosition"
-      label-width="80px"
-      :model="formData"
-      @submit.native.prevent
-    >
+    <el-form :label-position="labelPosition" label-width="80px" :model="formData" @submit.native.prevent>
       <el-form-item label="用户名">
         <el-input v-model.trim="formData.name" placeholder="请输入用户名"></el-input>
       </el-form-item>

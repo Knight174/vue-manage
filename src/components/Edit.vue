@@ -50,11 +50,16 @@ export default {
         tel: this.formData.tel,
         email: this.formData.email
       }
-      this.$http.put(`http://localhost:3000/tableData/${this.$route.params.id}`, updateCustomer).then(res => {
-        console.log(res)
-        this.$message.success('修改成功！')
-        this.$router.push({ name: 'ContentArticle' })
-      })
+      this.$http
+        .put(`http://localhost:3000/tableData/${this.$route.params.id}`, updateCustomer)
+        .then(res => {
+          console.log(res)
+          this.$message.success('修改成功！')
+          this.$router.push({ name: 'ContentArticle' })
+        })
+        .catch(() => {
+          this.$message.error('修改失败！')
+        })
     },
     onSubmit(e) {
       if (!this.formData.name || !this.formData.tel || !this.formData.email) {
